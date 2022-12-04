@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banananana</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
+        body{
+            background-color:#fcd34d;
+            font-family: 'Kalam', cursive;
+            font-family: 'Montserrat', sans-serif;
+        }
         textarea{
-            width: 80%;
+            width: 50%;
             height: 10vh;
             display: block;
             margin: 1rem;
@@ -15,22 +21,28 @@
         #btn-translate{
             width: 100px;
             height: 2rem;
+            margin-left: 20rem;
+            border-color: tomato;
             
         }
         #output{
-            border: 1px solid black;
+            border: 2px solid black;
             display: block;
-            width: 80%;
+            width: 50%;
             height: 10vh;
             margin: 1rem;
             padding: 1rem;
+        }
+        h1{
+            padding-left: 8rem;
         }
     </style>
     
     
 </head>
 <body>
-    <textarea id="txt-input"></textarea>
+    <h1>Welcome to banana translate!</h1>
+    <textarea id="txt-input" placeholder="Enter your text here"></textarea>
     <button id="btn-translate">translate</button>
     <div id="output"></div>
     <script src="app.js" type="text/javascript" ></script>
