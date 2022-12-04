@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banananana</title>
+    <style>
+        textarea{
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #btn-translate{
+            width: 100px;
+            height: 2rem;
+        }
+        #output-div{
+            border: 1px solid black;
+            display: block;
+            width: 80%;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
     
-    <script src="app.js" type="text/javascript" ></script>
+    
 </head>
 <body>
+    <textarea id="text-input"></textarea>
+    <button id="btn-translate">translate</button>
+    <div id="output-div"></div>
+    <script src="app.js" type="text/javascript" ></script>
     
 </body>
 </html>
