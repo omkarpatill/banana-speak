@@ -9,8 +9,9 @@ function constructUrl(text){
     return serverUrl+"?text="+ text
 }
 
-function errorHandler(){
+function errorHandler(error){
 console.log("error occurred", error);
+alert("an error occured.please try again in some time.");
 }
 
 function clickHandler(){
@@ -22,7 +23,7 @@ function clickHandler(){
         outputDiv.innerText=translatedText
     
     })
-    .catch(errorHandler);
+    .catch(errorHandler)
 
 };
 
