@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
+        body{
+            background-color:#fcd34d;
+            
+            font-family: 'Kalam', cursive;
+            font-family: 'Montserrat', sans-serif;
+        }
+        textarea{
+            width: 50%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #btn-translate{
+            width: 100px;
+            height: 2rem;
+            margin-left: 20rem;
+            border-color: tomato;
+            
+        }
+        #output{
+            border: 2px solid black;
+            display: block;
+            width: 50%;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        h1{
+            padding-left: 8rem;
+        }
